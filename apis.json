@@ -1,0 +1,45 @@
+{
+    "name": "Charles Proxy",
+    "description": "<p>Charles is an HTTP proxy \/ HTTP monitor \/ Reverse Proxy that enables a developer to view all of the HTTP and SSL \/ HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/charles-proxy-banner.jpg",
+    "tags": [
+        "api service provider",
+        "have api",
+        "proxy"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/charles-proxy\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Charles Proxy",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/charles-proxy-banner.jpg",
+            "humanURL": "https:\/\/www.charlesproxy.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/charles-proxy-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/charles-proxy-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/charlesproxy"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.charlesproxy.com\/"
+        }
+    ]
+}
