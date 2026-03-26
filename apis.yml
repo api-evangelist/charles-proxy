@@ -1,0 +1,32 @@
+aid: charles-proxy
+name: Charles Proxy
+description: >-
+  Charles Proxy is an HTTP proxy and monitor tool for viewing HTTP and HTTPS traffic between a machine and the Internet for API debugging.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - API Analysis
+  - Traffic Analysis
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/apis.yml
+created: '2026-03-26'
+modified: '2026-03-26'
+specificationVersion: '0.19'
+apis:
+  - aid: charles-proxy:charles-proxy
+    name: Charles Proxy
+    description: >-
+      Charles Proxy is an HTTP proxy and monitor tool for viewing HTTP and HTTPS traffic between a machine and the Internet for API debugging.
+    humanURL: https://www.charlesproxy.com
+    tags:
+      - API Analysis
+      - Traffic Analysis
+    properties:
+      - type: Documentation
+        url: https://www.charlesproxy.com/documentation
+common:
+  - type: Website
+    url: https://www.charlesproxy.com
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
