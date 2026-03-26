@@ -1,12 +1,20 @@
 aid: charles-proxy
 name: Charles Proxy
 description: >-
-  Charles Proxy is an HTTP proxy and monitor tool for viewing HTTP and HTTPS traffic between a machine and the Internet for API debugging.
+  Charles Proxy is an HTTP proxy and HTTP monitor that enables developers to
+  view all HTTP and SSL/HTTPS traffic between their machine and the Internet,
+  including requests, responses, and HTTP headers. It supports SSL proxying,
+  bandwidth throttling, AJAX debugging, breakpoints, and traffic recording for
+  API debugging, testing, and development workflows.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - API Analysis
-  - Traffic Analysis
+  - HTTP Proxy
+  - HTTP Debugging
+  - SSL Proxying
+  - Traffic Monitoring
+  - API Debugging
+  - Web Development
 url: >-
   https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -16,17 +24,44 @@ apis:
   - aid: charles-proxy:charles-proxy
     name: Charles Proxy
     description: >-
-      Charles Proxy is an HTTP proxy and monitor tool for viewing HTTP and HTTPS traffic between a machine and the Internet for API debugging.
+      Charles Proxy is an HTTP proxy and monitor tool that allows developers to
+      view all HTTP and SSL/HTTPS traffic between their machine and the
+      Internet. It supports SSL proxying, bandwidth throttling, AJAX debugging,
+      AMF inspection, request and response breakpoints, and content rewriting
+      for comprehensive API debugging.
     humanURL: https://www.charlesproxy.com
     tags:
-      - API Analysis
-      - Traffic Analysis
+      - HTTP Proxy
+      - HTTP Debugging
+      - SSL Proxying
+      - Traffic Monitoring
+      - API Debugging
     properties:
       - type: Documentation
-        url: https://www.charlesproxy.com/documentation
+        url: https://www.charlesproxy.com/documentation/
+      - type: GettingStarted
+        url: https://www.charlesproxy.com/documentation/getting-started/
+      - type: Configuration
+        url: https://www.charlesproxy.com/documentation/configuration/
+      - type: Installation
+        url: https://www.charlesproxy.com/documentation/installation/
+      - type: Download
+        url: https://www.charlesproxy.com/download/
 common:
   - type: Website
     url: https://www.charlesproxy.com
+  - type: Documentation
+    url: https://www.charlesproxy.com/documentation/
+  - type: Download
+    url: https://www.charlesproxy.com/download/
+  - type: Pricing
+    url: https://www.charlesproxy.com/buy/
+  - type: Support
+    url: https://www.charlesproxy.com/documentation/faqs/
+  - type: LatestVersion
+    url: https://www.charlesproxy.com/latest-release/download.do
+  - type: PrivacyPolicy
+    url: https://www.charlesproxy.com/privacy/
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
