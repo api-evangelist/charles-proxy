@@ -9,11 +9,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - HTTP Proxy
+  - API Debugging
   - HTTP Debugging
+  - HTTP Proxy
   - SSL Proxying
   - Traffic Monitoring
-  - API Debugging
   - Web Development
 url: >-
   https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/apis.yml
@@ -31,11 +31,11 @@ apis:
       for comprehensive API debugging.
     humanURL: https://www.charlesproxy.com
     tags:
-      - HTTP Proxy
+      - API Debugging
       - HTTP Debugging
+      - HTTP Proxy
       - SSL Proxying
       - Traffic Monitoring
-      - API Debugging
     properties:
       - type: Documentation
         url: https://www.charlesproxy.com/documentation/
