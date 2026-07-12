@@ -59,6 +59,8 @@ apis:
       - type: FAQ
         url: https://www.charlesproxy.com/documentation/faqs/
 common:
+  - type: DomainSecurity
+    url: security/charles-proxy-domain-security.yml
   - type: Website
     url: https://www.charlesproxy.com
   - type: Documentation
