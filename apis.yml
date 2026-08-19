@@ -35,7 +35,7 @@ tags:
   - Web Development
 created: '2026-03-26'
 modified: '2026-04-23'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 apis:
   - aid: charles-proxy:charles-proxy
     name: Charles Proxy
