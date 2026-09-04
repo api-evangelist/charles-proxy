@@ -35,7 +35,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/apis.yml
 type: Index
 access: 3rd-Party
-position: Consumer
+position: Consuming
 tags:
   - API Debugging
   - API Testing
