@@ -1,4 +1,4 @@
-# Charles Proxy (charles-proxy)
+# Charles Proxy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,61 +66,104 @@
 
 Charles Proxy is an HTTP proxy and HTTP monitor that enables developers to view all HTTP and SSL/HTTPS traffic between their machine and the Internet, including requests, responses, and HTTP headers. It supports SSL proxying, bandwidth throttling, AJAX debugging, AMF inspection, breakpoints, content rewriting, and traffic recording for API debugging, testing, and development workflows on Windows, macOS, and Linux.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/apis.yml)
+**Areas:** API Debugging · API Testing · Developer Tools · HTTP Debugging · HTTP Proxy · SSL Proxying · Traffic Monitoring · Web Development
 
-## Scope
+## Charles Proxy on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Charles Proxy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/charles-proxy/](https://apis.io/providers/charles-proxy/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- API Debugging, API Testing, HTTP Debugging, HTTP Proxy, SSL Proxying, Traffic Monitoring, Web Development
+- [Charles Proxy](https://apis.io/apis/charles-proxy/charles-proxy/) — Charles Proxy is a cross-platform desktop HTTP proxy and monitor that sits between client applications and the Internet to capture, inspect, and modify…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Charles Proxy
+Authentication, trust centre, and vulnerability disclosure.
 
-Charles Proxy is a cross-platform desktop HTTP proxy and monitor that sits between client applications and the Internet to capture, inspect, and modify traffic. It supports SSL proxying with certificate trust, bandwidth and latency throttling, AJAX and AMF inspection, request and response breakpoints, rewrite rules, and replay tooling for testing APIs and web integrations.
+- [Charles Proxy Domain Security](https://apis.io/security/charles-proxy/charles-proxy-domain-security/)
 
-**Human URL:** [https://www.charlesproxy.com](https://www.charlesproxy.com)
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- API Debugging, HTTP Debugging, HTTP Proxy, SSL Proxying, Traffic Monitoring
+- [Charles Proxy Plans Pricing](https://apis.io/plans/charles-proxy/charles-proxy-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://www.charlesproxy.com/documentation/)
-- [Getting Started](https://www.charlesproxy.com/documentation/getting-started/)
-- [Configuration](https://www.charlesproxy.com/documentation/configuration/)
-- [Installation](https://www.charlesproxy.com/documentation/installation/)
-- [Tools](https://www.charlesproxy.com/documentation/tools/)
-- [Proxying](https://www.charlesproxy.com/documentation/proxying/)
-- [Download](https://www.charlesproxy.com/download/)
-- [FAQ](https://www.charlesproxy.com/documentation/faqs/)
+Published request limits.
 
-> Charles Proxy is a desktop application rather than a hosted REST API, so this profile does not include OpenAPI, JSON Schema, Spectral, or Naftiko sandbox artifacts.
+- [Charles Proxy Rate Limits](https://apis.io/rate-limits/charles-proxy/charles-proxy-rate-limits/)
 
-## Common Properties
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Charles Proxy Finops](https://apis.io/finops/charles-proxy/charles-proxy-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.charlesproxy.com)
 - [Documentation](https://www.charlesproxy.com/documentation/)
-- [Download](https://www.charlesproxy.com/download/)
 - [Pricing](https://www.charlesproxy.com/buy/)
 - [Support](https://www.charlesproxy.com/documentation/faqs/)
-- [Latest Version](https://www.charlesproxy.com/latest-release/download.do)
-- [Privacy Policy](https://www.charlesproxy.com/privacy/)
-- [Blog / News](https://www.charlesproxy.com/news/)
+- [Blog](https://www.charlesproxy.com/news/)
+- [Privacy policy](https://www.charlesproxy.com/privacy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 17.0** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/charles-proxy/](https://apis.io/providers/charles-proxy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Charles Proxy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/charles-proxy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
